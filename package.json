@@ -1,0 +1,36 @@
+{
+  "name": "egg-build",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "egg-build": "bin/egg-build.js"
+  },
+  "scripts": {
+    "git": "git add . && git commit -m",
+    "postgit": "npm version patch && git push --all",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.14.7",
+    "@babel/plugin-transform-arrow-functions": "^7.14.5",
+    "@babel/plugin-transform-async-to-generator": "^7.14.5",
+    "@babel/plugin-transform-for-of": "^7.14.5",
+    "@babel/plugin-transform-parameters": "^7.14.5",
+    "@babel/plugin-transform-shorthand-properties": "^7.14.5",
+    "@babel/plugin-transform-spread": "^7.14.6",
+    "@babel/plugin-transform-template-literals": "^7.14.5",
+    "@babel/preset-env": "^7.15.0",
+    "chalk": "^4.1.2",
+    "common-bin": "^2.9.0",
+    "mkdirp": "^1.0.4",
+    "ora": "^5.4.1",
+    "rimraf": "^3.0.2",
+    "uglify-js": "^3.14.1",
+    "walk": "^2.3.14"
+  },
+  "devDependencies": {}
+}
